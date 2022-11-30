@@ -2,7 +2,7 @@
 
 cls
 
-
+::the password is test
 
 ::-------------------------Login
 :Login
@@ -10,8 +10,8 @@ echo.
 
 
 set /p key=~
-if %key%==teste goto Nice
-if NOT %key%==teste goto Fail
+if %key%==test goto Nice
+if NOT %key%==test goto Fail
 
 
 ::---------------Nice
